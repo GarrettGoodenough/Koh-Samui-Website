@@ -1,0 +1,47 @@
+/*@keyframes then title of animation {}*/
+@keyframes moveInLeft { 
+    0% {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+
+    /*0% represnets where the animations starts and 100% represents where the animation ends.
+    You can chose any where in between as well. Only use opacity and transform properties for 
+    performance purposes.*/
+
+    80% {
+        transform: translate(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight { 
+    0% {
+        opacity: 0;
+        transform: translate(100px);
+    }
+
+    80% {
+        transform: translate(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moneInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+
+    }
+}
